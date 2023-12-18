@@ -13,4 +13,10 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
 })
 app.use(router)
+
+Object.values(import.meta.glob<{ install: () => void }>('./modules/*.ts', { eager: true }))
+  .forEach((i) => {
+    i.install?.()
+  })
+
 app.mount('#app')

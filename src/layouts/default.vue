@@ -1,6 +1,9 @@
 <template>
-  <div h-screen w-screen>
+  <div h-screen w-screen flex flex-col>
     <TheNav />
-    <RouterView />
+    <div flex grow>
+      <TheSide />
+      <RouterView />
+    </div>
   </div>
 </template>
