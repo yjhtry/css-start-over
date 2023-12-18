@@ -1,9 +1,8 @@
 <template>
   <nav border="b-1 base" class="flex items-center gap-2 px6 py-2">
-    <div text="#f55 xl" font="900 mono">
+    <div mr-auto text="#f55 xl" font="900 mono">
       Flex
     </div>
-    <div flex-auto />
     <button icon-btn @click="toggleDark()">
       <div i-carbon-sun dark:i-carbon-moon />
     </button>
