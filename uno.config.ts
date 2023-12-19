@@ -27,4 +27,9 @@ export default defineConfig({
       },
     }),
   ],
+  safelist: [
+    ...['justify-start', 'justify-center', 'justify-end', 'justify-between', 'justify-around', 'justify-evenly'],
+    ...['items-stretch', 'items-start', 'items-center', 'items-end', 'items-baseline', 'items-revert'],
+    ...['flex-row', 'flex-row-reverse', 'flex-col', 'flex-col-reverse'],
+  ],
 })

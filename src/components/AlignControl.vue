@@ -36,7 +36,7 @@ watch(
       <option disabled value="">
         Please select one
       </option>
-      <option v-for="value in alignItems" :key="value" :value="value">
+      <option v-for="value in alignOptions" :key="value" :value="value">
         {{ value }}
       </option>
     </select>

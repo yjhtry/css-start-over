@@ -7,6 +7,7 @@ export {}
 declare global {
   const EffectScope: typeof import('vue')['EffectScope']
   const alignItems: typeof import('./src/composables/useAlignControl')['alignItems']
+  const alignOptions: typeof import('./src/composables/useAlignControl')['alignOptions']
   const asyncComputed: typeof import('@vueuse/core')['asyncComputed']
   const autoResetRef: typeof import('@vueuse/core')['autoResetRef']
   const computed: typeof import('vue')['computed']
@@ -302,7 +303,7 @@ import { UnwrapRef } from 'vue'
 declare module 'vue' {
   interface ComponentCustomProperties {
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
-    readonly alignItems: UnwrapRef<typeof import('./src/composables/useAlignControl')['alignItems']>
+    readonly alignOptions: UnwrapRef<typeof import('./src/composables/useAlignControl')['alignOptions']>
     readonly asyncComputed: UnwrapRef<typeof import('@vueuse/core')['asyncComputed']>
     readonly autoResetRef: UnwrapRef<typeof import('@vueuse/core')['autoResetRef']>
     readonly computed: UnwrapRef<typeof import('vue')['computed']>
@@ -591,7 +592,7 @@ declare module 'vue' {
 declare module '@vue/runtime-core' {
   interface ComponentCustomProperties {
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
-    readonly alignItems: UnwrapRef<typeof import('./src/composables/useAlignControl')['alignItems']>
+    readonly alignOptions: UnwrapRef<typeof import('./src/composables/useAlignControl')['alignOptions']>
     readonly asyncComputed: UnwrapRef<typeof import('@vueuse/core')['asyncComputed']>
     readonly autoResetRef: UnwrapRef<typeof import('@vueuse/core')['autoResetRef']>
     readonly computed: UnwrapRef<typeof import('vue')['computed']>
