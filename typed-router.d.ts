@@ -42,6 +42,8 @@ declare module 'vue-router/auto/routes' {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...all]': RouteRecordInfo<'/[...all]', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
     '/flex/col': RouteRecordInfo<'/flex/col', '/flex/col', Record<never, never>, Record<never, never>>,
+    '/flex/direction': RouteRecordInfo<'/flex/direction', '/flex/direction', Record<never, never>, Record<never, never>>,
+    '/flex/order': RouteRecordInfo<'/flex/order', '/flex/order', Record<never, never>, Record<never, never>>,
     '/flex/row': RouteRecordInfo<'/flex/row', '/flex/row', Record<never, never>, Record<never, never>>,
   }
 }
