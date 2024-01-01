@@ -47,6 +47,10 @@ declare module 'vue-router/auto/routes' {
     '/flex/order': RouteRecordInfo<'/flex/order', '/flex/order', Record<never, never>, Record<never, never>>,
     '/flex/row': RouteRecordInfo<'/flex/row', '/flex/row', Record<never, never>, Record<never, never>>,
     '/flex/wrap': RouteRecordInfo<'/flex/wrap', '/flex/wrap', Record<never, never>, Record<never, never>>,
+    '/icss/calc': RouteRecordInfo<'/icss/calc', '/icss/calc', Record<never, never>, Record<never, never>>,
+    '/icss/clamp': RouteRecordInfo<'/icss/clamp', '/icss/clamp', Record<never, never>, Record<never, never>>,
+    '/icss/max': RouteRecordInfo<'/icss/max', '/icss/max', Record<never, never>, Record<never, never>>,
+    '/icss/min': RouteRecordInfo<'/icss/min', '/icss/min', Record<never, never>, Record<never, never>>,
   }
 }
 
