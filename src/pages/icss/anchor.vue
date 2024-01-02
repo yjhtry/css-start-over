@@ -1,3 +1,11 @@
+<script setup lang="ts">
+onMounted(() => {
+  if (!CSS.supports('anchor-name: --anchor-1'))
+    // eslint-disable-next-line no-alert
+    alert(`Your browser does not support CSS Anchors \n You can enable "Experimental Web Platform features" in chrome://flags/ `)
+})
+</script>
+
 <template>
   <div full center>
     <ul class="g-container" flex>
