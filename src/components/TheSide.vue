@@ -20,7 +20,7 @@ function onLink(path: string) {
 </script>
 
 <template>
-  <div class="h-full w-45" border="r-1 base" of-hidden>
+  <div class="h-full w-60" border="r-1 base" of-hidden>
     <ul v-for="(names, path, index) in menus" :key="path" overflow-y-auto>
       <li p-2 border="t-1 base" :class="{ 'border-t-none': !index }">
         <div bg="hover:gray/90" flex cursor-pointer items-center justify-between rounded-2 py-1 pl-4 pr-2 @click="onExpand(path)">

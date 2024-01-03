@@ -54,6 +54,7 @@ declare module 'vue-router/auto/routes' {
     '/icss/max': RouteRecordInfo<'/icss/max', '/icss/max', Record<never, never>, Record<never, never>>,
     '/icss/min': RouteRecordInfo<'/icss/min', '/icss/min', Record<never, never>, Record<never, never>>,
     '/icss/resize': RouteRecordInfo<'/icss/resize', '/icss/resize', Record<never, never>, Record<never, never>>,
+    '/motion-path/basic': RouteRecordInfo<'/motion-path/basic', '/motion-path/basic', Record<never, never>, Record<never, never>>,
   }
 }
 
