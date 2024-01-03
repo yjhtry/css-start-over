@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createRouter, createWebHistory } from 'vue-router/auto'
+import { createRouter, createWebHashHistory } from 'vue-router/auto'
 import { setupLayouts } from 'virtual:generated-layouts'
 import App from './App.vue'
 
@@ -10,7 +10,7 @@ import 'uno.css'
 const app = createApp(App)
 const router = createRouter({
   extendRoutes: routes => setupLayouts(routes),
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
 })
 app.use(router)
 
