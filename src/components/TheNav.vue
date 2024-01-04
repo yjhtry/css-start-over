@@ -7,7 +7,7 @@
       <div i-carbon-sun dark:i-carbon-moon />
     </button>
     <a
-      href="https://github.com/yjhtry/css-flex"
+      href="https://github.com/yjhtry/css-start-over"
       target="_blank"
       class="rounded p-1"
       hover="bg-gray/30"
