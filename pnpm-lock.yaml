@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^2.6.3
     version: 2.6.3(@unocss/eslint-plugin@0.58.3)(@vue/compiler-sfc@3.4.15)(eslint-plugin-format@0.1.0)(eslint@8.56.0)(typescript@5.3.3)(vitest@1.2.1)
   '@iconify-json/arcticons':
-    specifier: ^1.1.89
-    version: 1.1.89
+    specifier: ^1.1.100
+    version: 1.1.100
   '@iconify-json/carbon':
     specifier: ^1.1.27
     version: 1.1.27
@@ -829,8 +829,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@iconify-json/arcticons@1.1.89:
-    resolution: {integrity: sha512-bdC0tLdWdD7XPmqEmf3N3UAIpgOy0UaNs+JUTUhb9I+6pdWXBFvAhT1KhCaz9kQYTcHe0cIJ6M9b5e8a6F4Qvg==}
+  /@iconify-json/arcticons@1.1.100:
+    resolution: {integrity: sha512-IO1u4p0BI1d1UDtVYBq8PBr/pJrkwinSpJPgt8JDMfhW057ZgJADzv7Wwj7CSgGJdVbcs0SFGzXR9YfNapk6iA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true

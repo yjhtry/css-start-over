@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
-    "@iconify-json/arcticons": "^1.1.89",
+    "@iconify-json/arcticons": "^1.1.100",
     "@iconify-json/carbon": "^1.1.27",
     "@iconify-json/logos": "^1.1.42",
     "@types/node": "^20.11.5",
